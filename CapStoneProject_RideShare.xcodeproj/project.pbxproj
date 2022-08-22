@@ -192,16 +192,15 @@
 				474808CB2893207300987F99 /* AppDelegate.swift */,
 				474808CD2893207300987F99 /* SceneDelegate.swift */,
 				47E6DA3328A36C31007E9392 /* SignInReg */,
-				47CCEF2928A957DD00F719C5 /* ProviderInitial */,
+				47CCEF2928A957DD00F719C5 /* ProviderControllers */,
+				47E6DA3428A36C61007E9392 /* SeekerControllers */,
 				47A37178289B313600340B1B /* Model */,
-				47E6DA3428A36C61007E9392 /* SeekerFiles */,
+				47D3D07228B3F58300021357 /* Constants */,
 				474808D12893207300987F99 /* Main.storyboard */,
 				474808D42893207400987F99 /* Assets.xcassets */,
 				474808D62893207400987F99 /* LaunchScreen.storyboard */,
 				474808D92893207400987F99 /* Info.plist */,
 				47FD2A62289332FE00FE7029 /* GoogleService-Info.plist */,
-				47E6DA3128A35EAA007E9392 /* FunctionalConst.swift */,
-				47FD2A6D2893477500FE7029 /* Constants.swift */,
 				47CCEF3B28A95AFF00F719C5 /* HCSStarRatingView.h */,
 				47CCEF3A28A95AFF00F719C5 /* HCSStarRatingView.m */,
 				4772EFD6289C4FA100ED8E29 /* RPCustomTableViewCell.swift */,
@@ -236,7 +235,7 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		47CCEF2928A957DD00F719C5 /* ProviderInitial */ = {
+		47CCEF2928A957DD00F719C5 /* ProviderControllers */ = {
 			isa = PBXGroup;
 			children = (
 				47CCEF2A28A9583600F719C5 /* ProviderConfirmationViewController.swift */,
@@ -252,7 +251,16 @@
 				47A37176289B101F00340B1B /* ProviderMoreVC.swift */,
 				47025D3928A5748100A1F8BD /* SeekerMoreVC.swift */,
 			);
-			path = ProviderInitial;
+			path = ProviderControllers;
+			sourceTree = "<group>";
+		};
+		47D3D07228B3F58300021357 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				47E6DA3128A35EAA007E9392 /* FunctionalConst.swift */,
+				47FD2A6D2893477500FE7029 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		47E6DA3328A36C31007E9392 /* SignInReg */ = {
@@ -267,7 +275,7 @@
 			path = SignInReg;
 			sourceTree = "<group>";
 		};
-		47E6DA3428A36C61007E9392 /* SeekerFiles */ = {
+		47E6DA3428A36C61007E9392 /* SeekerControllers */ = {
 			isa = PBXGroup;
 			children = (
 				47CCEF3628A95AFE00F719C5 /* FeedbackViewController.swift */,
@@ -283,7 +291,7 @@
 				47CCEF3728A95AFE00F719C5 /* SearchRideViewController.swift */,
 				47CCEF3428A95AFE00F719C5 /* SeekerHomeVC.swift */,
 			);
-			path = SeekerFiles;
+			path = SeekerControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
